@@ -22,7 +22,7 @@ class Student
   end 
   
   def self.drop_table
-    DROP TABLE students
+    "DROP TABLE students;"
   end 
   
   def save 
