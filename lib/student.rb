@@ -1,6 +1,6 @@
 class Student
 
-  attr_accessor :id, :name, :grade
+  attr_accessor :name, :grade
   
   def initialize (name, grade)
     @name= name
